@@ -60,3 +60,67 @@ footer{
     text-align: center;
     font-size: 10px;
 }
+@media(max-width:900px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #2E3466;
+        color: #BFC5FF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    div.kvt-container{
+        margin-top: 100px;
+        text-align: justify;
+    }
+    div.kvt-container div.box{
+        padding: 15px;
+        border: #ADB0CC solid 5px;
+        border-radius: 4px;
+        background-color: #0D1133;
+        margin-left: 80px;
+        margin-right: 80px;
+        box-shadow: 4px 4px 4px black;
+        margin-bottom: 24px;
+    }
+    
+    div.kvt-container a.proximo{
+        color: #BFC5FF;
+        font-size: 17px;
+        text-align: justify;
+        text-decoration: none;
+    }
+    div.kvt-container button.proximo{
+        margin-left: 85%;
+        margin-top: 3%;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        border: #ADB0CC solid 3px;
+        background-color: #0D1133;
+        border-radius: 3px;
+        box-shadow: 4px 4px 4px black;
+    }
+    div.kvt-container .logo{
+        text-align: center;
+        margin-bottom: 70px;
+        color: #ADB0CC;
+        border: #ADB0CC solid 3px;
+        margin-left: 360px;
+        margin-right: 360px;
+        padding: 12px;
+        background-color: #0D1133;
+        border-radius: 4%;
+        box-shadow: 4px 4px 4px black;
+    }
+    footer{
+        text-align: center;
+        font-size: 10px;
+    }
+}
